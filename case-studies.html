@@ -1,0 +1,351 @@
+<style>
+    section.sidebar__section {
+        padding-top: 16px;
+        
+        h2 {
+            font-size: var(--nsw-font-size-md-desktop);
+            line-height: var(--nsw-line-height-md-desktop);
+            margin: 0px 0px 1.5em;
+            padding: 0px 0px 1.5em;
+            border-bottom: 1px solid var(--nsw-grey-04);
+        }
+        
+/*
+        .nsw-form__group.js-form-item.form-item.js-form-type-textfield.form-type-textfield.js-form-item-keyword.form-item-keyword {
+            position: relative;
+            top: -32vh;
+            width: 100%;
+        }
+        
+        div#edit-actions--2 {
+            position: relative;
+            top: -32vh;
+        }
+*/
+                    
+        .form--inline.clearfix {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .form--inline.clearfix > *:nth-child(1) {
+            order: 3;
+            margin: 0em 0px 2em;
+            padding: 0px 0px 2em;
+            border-bottom: 1px solid var(--nsw-grey-04);
+        }
+        
+        .form--inline.clearfix > *:nth-child(2) {
+            order: 4;
+            margin: 0em 0px 2em;
+            padding: 0em 0px 2em;
+        }
+        
+        .form--inline.clearfix > *:nth-child(3) {
+            order: 1;
+            margin-top: 0px;
+        }
+        
+        .form--inline.clearfix > *:nth-child(4) {
+            order: 2;
+            margin: 1em 0px 2em;
+            padding: 0px 0px 2em;
+            border-bottom: 1px solid var(--nsw-grey-04);
+        }
+        
+        .sr-only, .sr-only-focusable:not(:focus):not(:focus-within) {
+            display: contents;
+            font-weight: 700;
+        }
+        
+    }
+    
+    #hero-element {
+        margin-bottom: 4em;
+    }
+    
+    .digital-nsw-kb__top {
+        padding: 2rem !important;
+        position: relative;
+        width: 100%;
+        border: 1px solid var(--nsw-grey-03);
+        border-left: 4px solid var(--nsw-brand-accent) !important;
+        border-top-right-radius: var(--nsw-border-radius) !important;
+        border-bottom-right-radius: var(--nsw-border-radius) !important;
+    }
+        
+    .nsw-card:hover {
+        color: var(--nsw-text-dark);
+            .nsw-card__content {
+                background-color: var(--nsw-off-white);
+                border-color: var(--nsw-grey-03);
+            }
+            .nsw-material-icons {
+                color: var(--nsw-text-dark);
+            }    
+    }
+    
+    .nsw-card a, .nsw-card:hover a {
+        color: var(--nsw-brand-dark);
+        cursor: pointer;
+        text-decoration: underline !important;
+    }
+    
+    .nsw-accordion__title .active, .nsw-accordion__title:hover .nsw-accordion__title, .nsw-accordion__button .active, .nsw-accordion__title:hover .nsw-accordion__button, .nsw-accordion__button:hover .nsw-accordion__title, .nsw-accordion__button:hover .nsw-accordion__button {
+        color: var(--nsw-brand-dark);
+        background-color: var(--nsw-brand-white);
+        cursor: pointer;
+    }
+    
+    .nsw-accordion__title .active .nsw-material-icons, .nsw-accordion__title:hover .nsw-accordion__title .nsw-material-icons, .nsw-accordion__button .active .nsw-material-icons, .nsw-accordion__title:hover .nsw-accordion__button .nsw-material-icons, .nsw-accordion__button:hover .nsw-accordion__title .nsw-material-icons, .nsw-accordion__button:hover .nsw-accordion__button .nsw-material-icons {
+        color: var(--nsw-text-dark);
+    }
+    
+    .nsw-accordion__title, .nsw-accordion__button {
+        font-size: 16px;
+        color: var(--nsw-brand-dark);
+        text-decoration: underline;
+        font-weight: 700;
+        background-color: var(--nsw-white);
+        text-align: right;
+    }
+    
+    .nsw-accordion__button.active .nsw-material-icons {
+        transform: translateX(97%) translateY(-46%) rotate(180deg);
+    }
+    
+    @media (min-width: 62rem) {
+        .nsw-card .nsw-material-icons {
+            bottom: 0rem;
+        }
+    }
+    
+</style>
+
+
+<section class="nsw-section nsw-m-top-sm nsw-p-0" id="hero-element">
+    <div class="nsw-hero-banner nsw-hero-banner--light nsw-hero-banner--wide nsw-hero-banner--lines">
+      <div class="nsw-hero-banner__container">
+        <div class="nsw-hero-banner__wrapper">
+          <div class="nsw-hero-banner__content">
+            <h1>Case studies</h1>
+            <p class="nsw-intro">
+                Search all case studies. Search by keyword or filter the results to find what’s relevant to you.
+            </p>
+          </div>
+          <div class="nsw-hero-banner__box">
+            <div class="nsw-hero-banner__lines"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<style>
+    .digital-nsw-kb__top {
+        padding: 2rem !important;
+        position: relative;
+        width: 100%;
+        border: 1px solid var(--nsw-grey-03);
+        border-left: 4px solid var(--nsw-brand-accent) !important;
+        border-top-right-radius: var(--nsw-border-radius) !important;
+        border-bottom-right-radius: var(--nsw-border-radius) !important;
+    }
+        
+    .nsw-card:hover {
+        color: var(--nsw-text-dark);
+            .nsw-card__content {
+                background-color: var(--nsw-off-white);
+                border-color: var(--nsw-grey-03);
+            }
+            .nsw-material-icons {
+                color: var(--nsw-text-dark);
+            }    
+    }
+    
+    .nsw-card a, .nsw-card:hover a {
+        color: var(--nsw-brand-dark);
+        cursor: pointer;
+        text-decoration: underline !important;
+    }
+    
+    .nsw-accordion__title .active, .nsw-accordion__title:hover .nsw-accordion__title, .nsw-accordion__button .active, .nsw-accordion__title:hover .nsw-accordion__button, .nsw-accordion__button:hover .nsw-accordion__title, .nsw-accordion__button:hover .nsw-accordion__button {
+        color: var(--nsw-brand-dark);
+        background-color: var(--nsw-brand-white);
+        cursor: pointer;
+    }
+    
+    .nsw-accordion__title .active .nsw-material-icons, .nsw-accordion__title:hover .nsw-accordion__title .nsw-material-icons, .nsw-accordion__button .active .nsw-material-icons, .nsw-accordion__title:hover .nsw-accordion__button .nsw-material-icons, .nsw-accordion__button:hover .nsw-accordion__title .nsw-material-icons, .nsw-accordion__button:hover .nsw-accordion__button .nsw-material-icons {
+        color: var(--nsw-text-dark);
+    }
+    
+    .nsw-accordion__title, .nsw-accordion__button {
+        font-size: 16px;
+        color: var(--nsw-brand-dark);
+        text-decoration: underline;
+        font-weight: 700;
+        background-color: var(--nsw-white);
+        text-align: right;
+    }
+    
+    .nsw-accordion__button.active .nsw-material-icons {
+        transform: translateX(97%) translateY(-46%) rotate(180deg);
+    }
+    
+    @media (min-width: 62rem) {
+        .nsw-card .nsw-material-icons {
+            bottom: 0rem;
+        }
+    }
+    
+</style>
+
+
+<section class="nsw-section--white nsw-section">
+    <div class="nsw-container">
+        <div class="nsw-layout">
+            <div class="nsw-layout__main">
+                <div class="nsw-grid">
+                    
+                    <!-- Case study box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 1 | Case study 2</p>
+                            <div class="nsw-card__title">
+                              Department of Education Open Data
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                    <div class="nsw-card__title">
+                                      Placeholder
+                                    </div>
+                                    <p>
+                                        Placeholder  
+                                    </p>
+                                    <p class="nsw-text-right">
+                                     <a class="js-link" href="/nsw-data-strategy/case-studies/tech-savvy-seniors"><span>View more details</span></a> 
+                                    </p>
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Case study box = END ///////////////////////////// -->
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+         
+
+
+<section class="nsw-section--off-white nsw-section">
+    <div class="nsw-container">
+        <div class="nsw-layout">
+            <div class="nsw-layout__main">
+                <h2 class="nsw-section-title">
+                    Explore the NSW Data Strategy
+                </h2>
+                <div class="nsw-grid">
+                
+                    <div class="nsw-col nsw-col-xs-12 nsw-col-md-4">
+                        <div class="nsw-link-list">
+                          <ul>
+                            <li>
+                              <a href="/nsw-data-strategy/mission-1" target="_blank">
+                                <span style="width: 100%;">Mission 1</span>
+                                <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/nsw-data-strategy/mission-2" target="_blank">
+                                <span style="width: 100%;">Mission 2</span>
+                                <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/nsw-data-strategy/mission-3" target="_blank">
+                                <span style="width: 100%;">Mission 3</span>
+                                <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/nsw-data-strategy/mission-4" target="_blank">
+                                <span style="width: 100%;">Mission 4</span>
+                                <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="nsw-col nsw-col-xs-12 nsw-col-md-4">
+                        <div class="nsw-link-list">
+                          <ul>
+                            <li>
+                              <a href="/nsw-data-strategy/mission-5" target="_blank">
+                                <span style="width: 100%;">Mission 5</span>
+                                <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/nsw-data-strategy/enabling-nsw-government-priorities" target="_blank">
+                                <span style="width: 100%;">Enabling NSW Government priorities</span>
+                                <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/nsw-data-strategy/strategy-roadmap" target="_blank">
+                                <span style="width: 100%;">Strategy roadmap</span>
+                                <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/nsw-data-strategy/glossary" target="_blank">
+                                <span style="width: 100%;">Glossary</span>
+                                <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="nsw-col nsw-col-xs-12 nsw-col-md-4">
+                        <div class="nsw-link-list">
+                          <ul>
+                            <li>
+                              <a href="/nsw-data-strategy/references" target="_blank">
+                                <span style="width: 100%;">References</span>
+                                <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/nsw-data-strategy/commitments" target="_blank">
+                                <span style="width: 100%;">Commitments</span>
+                                <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/nsw-data-strategy/case-studies" target="_blank">
+                                <span style="width: 100%;">Case Studies</span>
+                                <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">east</span>
+                              </a>
+                            </li>
+                              
+                          </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,3063 @@
+<style>
+    section.sidebar__section {
+        padding-top: 16px;
+        
+        h2 {
+            font-size: var(--nsw-font-size-md-desktop);
+            line-height: var(--nsw-line-height-md-desktop);
+            margin: 0px 0px 1.5em;
+            padding: 0px 0px 1.5em;
+            border-bottom: 1px solid var(--nsw-grey-04);
+        }
+        
+/*
+        .nsw-form__group.js-form-item.form-item.js-form-type-textfield.form-type-textfield.js-form-item-keyword.form-item-keyword {
+            position: relative;
+            top: -32vh;
+            width: 100%;
+        }
+        
+        div#edit-actions--2 {
+            position: relative;
+            top: -32vh;
+        }
+*/
+                    
+        .form--inline.clearfix {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .form--inline.clearfix > *:nth-child(1) {
+            order: 3;
+            margin: 0em 0px 2em;
+            padding: 0px 0px 2em;
+            border-bottom: 1px solid var(--nsw-grey-04);
+        }
+        
+        .form--inline.clearfix > *:nth-child(2) {
+            order: 4;
+            margin: 0em;
+        }
+        
+        .form--inline.clearfix > *:nth-child(3) {
+            order: 5;
+            margin: 2em 0px 0em;
+            padding: 2em 0px 2em;
+            border-top: 1px solid var(--nsw-grey-04);
+        }
+        
+        
+        .form--inline.clearfix > *:nth-child(4) {
+            order: 6;
+            margin: 0em 0px 2em;
+            padding: 2em 0px 2em;
+            border-top: 1px solid var(--nsw-grey-04);
+        }
+        
+        
+        .form--inline.clearfix > *:nth-child(5) {
+            order: 1;
+            margin-top: 0px;
+        }
+        
+        .form--inline.clearfix > *:nth-child(6) {
+            order: 2;
+            margin: 1em 0px 2em;
+            padding: 0px 0px 2em;
+            border-bottom: 1px solid var(--nsw-grey-04);
+        }
+        
+        .sr-only, .sr-only-focusable:not(:focus):not(:focus-within) {
+            display: contents;
+            font-weight: 700;
+        }
+        
+    }
+    
+    #hero-element {
+        margin-bottom: 4em;
+    }
+    
+    .digital-nsw-kb__top {
+        padding: 2rem !important;
+        position: relative;
+        width: 100%;
+        border: 1px solid var(--nsw-grey-03);
+        border-left: 4px solid var(--nsw-brand-accent) !important;
+        border-top-right-radius: var(--nsw-border-radius) !important;
+        border-bottom-right-radius: var(--nsw-border-radius) !important;
+    }
+        
+    .nsw-card:hover {
+        color: var(--nsw-text-dark);
+            .nsw-card__content {
+                background-color: var(--nsw-off-white);
+                border-color: var(--nsw-grey-03);
+            }
+            .nsw-material-icons {
+                color: var(--nsw-text-dark);
+            }    
+    }
+    
+    .nsw-card a, .nsw-card:hover a {
+        color: var(--nsw-brand-dark);
+        cursor: pointer;
+        text-decoration: underline !important;
+    }
+    
+    .nsw-accordion__title .active, .nsw-accordion__title:hover .nsw-accordion__title, .nsw-accordion__button .active, .nsw-accordion__title:hover .nsw-accordion__button, .nsw-accordion__button:hover .nsw-accordion__title, .nsw-accordion__button:hover .nsw-accordion__button {
+        color: var(--nsw-brand-dark);
+        background-color: var(--nsw-brand-white);
+        cursor: pointer;
+    }
+    
+    .nsw-accordion__title .active .nsw-material-icons, .nsw-accordion__title:hover .nsw-accordion__title .nsw-material-icons, .nsw-accordion__button .active .nsw-material-icons, .nsw-accordion__title:hover .nsw-accordion__button .nsw-material-icons, .nsw-accordion__button:hover .nsw-accordion__title .nsw-material-icons, .nsw-accordion__button:hover .nsw-accordion__button .nsw-material-icons {
+        color: var(--nsw-text-dark);
+    }
+    
+    .nsw-accordion__title, .nsw-accordion__button {
+        font-size: 16px;
+        color: var(--nsw-brand-dark);
+        text-decoration: underline;
+        font-weight: 700;
+        background-color: var(--nsw-white);
+        text-align: right;
+    }
+    
+    .nsw-accordion__button.active .nsw-material-icons {
+        transform: translateX(97%) translateY(-46%) rotate(180deg);
+    }
+    
+    @media (min-width: 62rem) {
+        .nsw-card .nsw-material-icons {
+            bottom: 0rem;
+        }
+    }
+    
+</style>
+
+
+<section class="nsw-section nsw-m-top-sm nsw-p-0" id="hero-element">
+    <div class="nsw-hero-banner nsw-hero-banner--light nsw-hero-banner--wide nsw-hero-banner--lines">
+      <div class="nsw-hero-banner__container">
+        <div class="nsw-hero-banner__wrapper">
+          <div class="nsw-hero-banner__content">
+            <h1>Commitments</h1>
+            <p class="nsw-intro">
+                Commitments are published actions NSW Government agencies have agreed to work on in the defined timeframe. Each Mission in the strategy has associated commitments to work towards their objectives.
+            </p>
+          </div>
+          <div class="nsw-hero-banner__box">
+            <div class="nsw-hero-banner__lines"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+<style>
+    .digital-nsw-kb__top {
+        padding: 2rem !important;
+        position: relative;
+        width: 100%;
+        border: 1px solid var(--nsw-grey-03);
+        border-left: 4px solid var(--nsw-brand-accent) !important;
+        border-top-right-radius: var(--nsw-border-radius) !important;
+        border-bottom-right-radius: var(--nsw-border-radius) !important;
+    }
+        
+    .nsw-card:hover {
+        color: var(--nsw-text-dark);
+            .nsw-card__content {
+                background-color: var(--nsw-off-white);
+                border-color: var(--nsw-grey-03);
+            }
+            .nsw-material-icons {
+                color: var(--nsw-text-dark);
+            }    
+    }
+    
+    .nsw-accordion__title .active, .nsw-accordion__title:hover .nsw-accordion__title, .nsw-accordion__button .active, .nsw-accordion__title:hover .nsw-accordion__button, .nsw-accordion__button:hover .nsw-accordion__title, .nsw-accordion__button:hover .nsw-accordion__button {
+        color: var(--nsw-brand-dark);
+        background-color: var(--nsw-brand-white);
+        cursor: pointer;
+    }
+    
+    .nsw-accordion__title .active .nsw-material-icons, .nsw-accordion__title:hover .nsw-accordion__title .nsw-material-icons, .nsw-accordion__button .active .nsw-material-icons, .nsw-accordion__title:hover .nsw-accordion__button .nsw-material-icons, .nsw-accordion__button:hover .nsw-accordion__title .nsw-material-icons, .nsw-accordion__button:hover .nsw-accordion__button .nsw-material-icons {
+        color: var(--nsw-text-dark);
+    }
+    
+    .nsw-accordion__title, .nsw-accordion__button {
+        font-size: 16px;
+        color: var(--nsw-brand-dark);
+        text-decoration: underline;
+        font-weight: 700;
+        background-color: var(--nsw-white);
+        text-align: right;
+    }
+    
+    .nsw-accordion__button.active .nsw-material-icons {
+        transform: translateX(97%) translateY(-46%) rotate(180deg);
+    }
+    
+    
+    @media (min-width: 62rem) {
+        .nsw-card .nsw-material-icons {
+            bottom: 0rem;
+        }
+    }
+    
+</style>
+
+
+<section class="nsw-section--white nsw-section">
+    <div class="nsw-container">
+        <div class="nsw-layout">
+            <div class="nsw-layout__main">
+                <div class="nsw-grid">
+                
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 1 | Objective 1A</p>
+                            <div class="nsw-card__title">
+                              1. Update the Open Data Policy
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 1 | Objective 1A</p>
+                            <div class="nsw-card__title">
+                              2. Expand and enhance the open data offering using the Data.NSW platform wherever possible
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 1 | Objective 1A</p>
+                            <div class="nsw-card__title">
+                              3. Standardise open data file formats for ease of use, including machine readability
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 1 | Objective 1A</p>
+                            <div class="nsw-card__title">
+                              4. Standardise the use of foundational data within Government through State Digital Asset Recognition. 
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 1 | Objective 1B</p>
+                            <div class="nsw-card__title">
+                              5. Deliver NSW Closing the Gap Priority Reform 4 commitments in collaboration with the Coalition of Aboriginal Peak Organisations (CAPO)  
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 2 | Objective 2A</p>
+                            <div class="nsw-card__title">
+                              6. NSW delivers on its commitments to national data reform initiatives, including NDDA and ANDII, and uses these to benefit NSW citizens 
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 2 | Objective 2A</p>
+                            <div class="nsw-card__title">
+                              7. Develop and implement a linked data coordination model for participation in NSW and national linked data assets
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 2 | Objective 2B</p>
+                            <div class="nsw-card__title">
+                              8. Design and implement co-governance activities for priority community groups
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 2 | Objective 2B</p>
+                            <div class="nsw-card__title">
+                              9. Review legislative frameworks and make recommendations for any changes to support community co-governance while maintaining privacy and safety 
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 2 | Objective 2B</p>
+                            <div class="nsw-card__title">
+                              10. Develop resources that support agencies to build capability in community co-governance
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 2 | Objective 2C</p>
+                            <div class="nsw-card__title">
+                              11. Agencies collaborate to develop an interconnected data system that provides evidence to inform government priorities
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 2 | Objective 2C</p>
+                            <div class="nsw-card__title">
+                              12. Deliver a NSW Government Data Development Plan to support the Performance and Wellbeing Framework
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 3 | Objective 3A</p>
+                            <div class="nsw-card__title">
+                              13. Introduce a cross-sector plan for managing emerging technologies, overseen by NDLG
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 3 | Objective 3A</p>
+                            <div class="nsw-card__title">
+                              14. Develop a cross-agency register of current use cases and potential opportunities to leverage emerging technologies
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 3 | Objective 3B</p>
+                            <div class="nsw-card__title">
+                              15. Ensure data practices integrated into the NSW AI strategy refresh 
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 3 | Objective 3B</p>
+                            <div class="nsw-card__title">
+                              16. Support the streamlining of data best practices, risk identification, and controls within the AI Assessment Framework 
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 3 | Objective 3B</p>
+                            <div class="nsw-card__title">
+                              17. Develop resources to enhance data readiness, and best-practice data governance and management when using AI 
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 3 | Objective 3C</p>
+                            <div class="nsw-card__title">
+                              18. Work with Information Privacy Commissioner to support reforms to privacy regimes to foster safe data sharing
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 3 | Objective 3C</p>
+                            <div class="nsw-card__title">
+                              19. Monitor the regulatory environment for data privacy and sharing with a view to assessing need for regulatory change
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 3 | Objective 3C</p>
+                            <div class="nsw-card__title">
+                              20. Explore privacy enhancing technologies that enhance safe data sharing
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 3 | Objective 3C</p>
+                            <div class="nsw-card__title">
+                              21. Make information available to the community about how government prevents and manages data breaches
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 3 | Objective 3C</p>
+                            <div class="nsw-card__title">
+                              22. Agencies provide clear information on their websites about data use, including what they collect, why, and the benefits of using and sharing data
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 3 | Objective 3C</p>
+                            <div class="nsw-card__title">
+                              23. Explore strategies and opportunities to use social licence testing
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 4 | Objective 4A</p>
+                            <div class="nsw-card__title">
+                              24. Develop and adopt common and interoperable cross-sector data standards
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 4 | Objective 4A</p>
+                            <div class="nsw-card__title">
+                              25. Ensure that use of cross-sector data standards are a requirement in 3rd party contracts
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 4 | Objective 4A</p>
+                            <div class="nsw-card__title">
+                              26. Provide support to agencies in implementing the data governance toolkit
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 4 | Objective 4A</p>
+                            <div class="nsw-card__title">
+                              27. Increase use of cross-sector data governance and management tools
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 4 | Objective 4A</p>
+                            <div class="nsw-card__title">
+                              28. Develop and implement tools to measure and report on data maturity across the sector
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 4 | Objective 4A</p>
+                            <div class="nsw-card__title">
+                              29. Develop and implement cross-sector resources/initiatives to uplift maturity
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 4 | Objective 4A</p>
+                            <div class="nsw-card__title">
+                              30. Agencies develop and implement initiatives for uplifting maturity according to agency needs
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 4 | Objective 4A</p>
+                            <div class="nsw-card__title">
+                              31. Evaluate the appropriateness of the spatial data governance framework and if suitable, rollout similar frameworks for other domains
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 4 | Objective 4B</p>
+                            <div class="nsw-card__title">
+                              32. Recommend an approach to cross-sector investment in people, infrastructure and resources that enable data capability, capacity and quality uplift
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 4 | Objective 4B</p>
+                            <div class="nsw-card__title">
+                              33. Coordinate cross-sector procurement of data governance and data management platforms and tools
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 5 | Objective 5A</p>
+                            <div class="nsw-card__title">
+                              34. Design and implement cross-sector data related job functions including occupation specific capabilities for data professionals and data literacy capabilities for non-technical roles
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 5 | Objective 5A</p>
+                            <div class="nsw-card__title">
+                              35. Develop training programs, building on existing agency-level efforts, including foundational data literacy
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 5 | Objective 5A</p>
+                            <div class="nsw-card__title">
+                              36. Share expertise and cross-sector capability-building resources
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 5 | Objective 5B</p>
+                            <div class="nsw-card__title">
+                              37. Continue to embed Chief Data Officer functions in cross-government governance architecture, including shared understanding of Chief Data Officer functions
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 5 | Objective 5B</p>
+                            <div class="nsw-card__title">
+                              38. Identify opportunities for Senior Executive Data Leadership training
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 5 | Objective 5B</p>
+                            <div class="nsw-card__title">
+                              39. Increase engagement between data leaders and policy leaders to build a culture where data drives decision-making
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                    <!-- Commimtnet box = START ///////////////////////////// -->
+                    <div class="nsw-col nsw-col-xs-12">
+                        <div class="nsw-card nsw-card--horizontal">
+                          <div class="digital-nsw-kb__top">
+                              <p class="nsw-p-bottom-xs">Mission 5 | Objective 5B</p>
+                            <div class="nsw-card__title">
+                              40. Identify and implement initiatives that build data driven decision-making culture within agencies and across the sector
+                            </div>
+                                <div class="nsw-accordion js-accordion">
+                                  <div class="nsw-accordion__title nsw-accordion__closed">
+                                      More information
+                                  </div>
+                                  <div class="nsw-accordion__content nsw-p-x-0">
+                                      
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Description
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Lead department
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  Priority
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      <div class="nsw-display-flex nsw-justify-content-around nsw-m-y-xs">
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-3">
+                                              <h5>
+                                                  NSW benefits
+                                              </h5>
+                                          </div>
+                                          <div class="nsw-col-xs-12 nsw-col-md-6 nsw-col-lg-9">
+                                              <p>
+                                                  Placeholder.
+                                              </p>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    <!-- Commimtnet box = END ///////////////////////////// -->
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                
